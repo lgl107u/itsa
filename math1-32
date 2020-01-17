@@ -1,0 +1,16 @@
+#include <stdio.h>  
+  
+int main()  
+{  
+    int x;  
+    while(scanf("%d",&x)!=EOF)  
+    { 
+        int sat,pl,rat;
+        sat = x%10;
+        pl = (x%100)/10;
+        rat = x/100;
+        if( sat*sat*sat+pl*pl*pl+rat*rat*rat == x ) printf("Yes\n");
+        else printf("No\n");
+    }  
+    return 0;  
+}
