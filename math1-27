@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int x,y;
+
+    while(scanf("%d %d",&x,&y)!=EOF)
+    {
+        int temp;
+        if(x<y)
+        {
+            temp = x;
+            x = y;
+            y =temp;
+        }
+        float result = (x+y)*(x-y+1)/2.0;
+        printf("%.0f\n",result);
+    }
+    return 0;
+}
