@@ -3,16 +3,19 @@
 
 int main()
 {
-    int x;
-    while (scanf("%d",&x)!=EOF)
+    float x;
+    while(scanf("%f",&x)!=EOF)
     {
-        int sp,lm,st;
-        sp = x/10;
-        x = x%10;
-        lm = x/5;
-        x = x%5;
-        st = x;
-        printf("NT10=%d\nNT5=%d\nNT1=%d\n",sp,lm,st);
+        int detik=0;
+        float frsp = 0.762;
+        float mesp = 0;
+        while(x>mesp)
+        {
+            x += frsp;
+            mesp += 1; 
+            detik++;
+        }
+        printf("%d\n",detik);
     }
     
     return 0;
