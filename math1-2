@@ -1,0 +1,14 @@
+#include <stdio.h>  
+#include <stdlib.h>  
+  
+int main()  
+{  
+    int x,y;  
+    float area;  
+    while(scanf("%d %d",&x,&y)!=EOF)  
+    {  
+        area = (x*y)/2.0;  
+        printf("%.1f\n",area);  
+    }  
+    return 0;  
+}  
