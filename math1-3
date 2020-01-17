@@ -1,0 +1,14 @@
+#include <stdio.h>  
+#include <stdlib.h>  
+  
+int main()  
+{  
+    int x,y,k;  
+    while(scanf("%d %d",&x,&y)!=EOF)  
+    {  
+        k =0;  
+        k = x+y;  
+        printf("%d\n",k);  
+    }  
+    return 0;  
+}  
