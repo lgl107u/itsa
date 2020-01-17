@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(void)   
+{   
+    int x,y;
+    while(scanf("%d %d",&x,&y)!=EOF)
+    {
+        x*=2;
+        y*=2;
+        if(x>200 || y>200) printf("outside\n");
+        else printf("inside\n");
+    }
+    return 0;   
+}
