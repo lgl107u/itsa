@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    unsigned int x;
+    while(scanf("%d",&x)!=EOF)
+    {
+        if(x>31) printf("Value of more than 31\n");
+        else
+        {
+            int l=1;
+            unsigned long long resl;
+            resl = (unsigned long long)l << x;
+            printf("%llu\n",resl);
+            /* code */
+        }
+        
+         
+    }
+    return 0;
+}
