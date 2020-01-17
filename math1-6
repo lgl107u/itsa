@@ -1,0 +1,21 @@
+#include <stdio.h>  
+#include <stdlib.h>  
+  
+int main()  
+{  
+    float x;  
+    int test;  
+    while(scanf("%f",&x)!=EOF)  
+    {  
+        float z = x*1.6;  
+        test = z*100;  
+        if(test%10 >=5)  
+        {  
+            test += 10;  
+            z = test/100.0;  
+            printf("%.1f\n",z);  
+        }  
+        else printf("%.1f\n",z);  
+    }  
+    return 0;  
+}  
