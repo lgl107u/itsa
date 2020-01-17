@@ -1,0 +1,21 @@
+#include <stdio.h>   
+#include <string.h>   
+#include <stdlib.h> 
+
+int main(void)   
+{   
+    int hr_1,mn_1,hr_2,mn_2,sum_hr,sum_mn,amt,rem;
+    scanf("%d %d %d %d",&hr_1,&mn_1,&hr_2,&mn_2);
+    if(hr_1>=0 && hr_1<=23 && hr_2>=0 && hr_2<=23 && mn_1>=0 && mn_1<=59 && mn_2>=0 && mn_2<=59)
+    {
+        sum_hr = hr_2-hr_1;
+        sum_hr *= 60;
+        sum_mn = (mn_2-mn_1)+sum_hr;
+        rem = sum_mn/30;
+        if(rem<=4) amt=rem*30;
+        if(rem>=5 && rem<=8) amt=4*30+(rem-4)*40;
+        if(rem>=9) amt=4*30+4*40+(rem-8)*60;
+        printf("%d\n",amt);
+    }
+    return 0;   
+}
