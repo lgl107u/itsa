@@ -17,5 +17,6 @@ int main(void)
         if(rem>=9) amt=4*30+4*40+(rem-8)*60;
         printf("%d\n",amt);
     }
+    
     return 0;   
 }
