@@ -9,6 +9,6 @@ int main()
     {  
         area = (x+y)*z/2.0;  
         printf("Trapezoid area:%.1f\n",area);  
-    }  
+    }
     return 0;  
 }  
