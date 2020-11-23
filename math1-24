@@ -5,8 +5,7 @@ int faktorial(int i){
     return i*faktorial(i-1); 
 } 
 
-int main()    
-{    
+int main(){    
     int tm,hr; 
     while(scanf("%d %d",&tm,&hr)!=EOF)    
     {    
