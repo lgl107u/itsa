@@ -7,8 +7,7 @@ int main(void)
 {   
     int n,m,cnt;
 
-    while(scanf("%d %d",&n,&m)!=EOF)
-    {
+    while(scanf("%d %d",&n,&m)!=EOF){
         char x[10],y[10];
         cnt =0;
         sprintf(x,"%d",n);
