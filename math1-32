@@ -3,8 +3,7 @@
 int main()  
 {  
     int x;  
-    while(scanf("%d",&x)!=EOF)  
-    { 
+    while(scanf("%d",&x)!=EOF){ 
         int sat,pl,rat;
         sat = x%10;
         pl = (x%100)/10;
