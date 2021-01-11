@@ -4,8 +4,7 @@ int main()
 {
     int x,grt,flag,i,j;
 
-    while(scanf("%d",&x)!=EOF)
-    {
+    while(scanf("%d",&x)!=EOF){
         x--;
         flag =0 ;
 
