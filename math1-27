@@ -7,8 +7,7 @@ int main()
     while(scanf("%d %d",&x,&y)!=EOF)
     {
         int temp;
-        if(x<y)
-        {
+        if(x<y){
             temp = x;
             x = y;
             y =temp;
