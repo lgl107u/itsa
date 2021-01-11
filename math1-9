@@ -4,8 +4,7 @@
 int main()
 {
     unsigned int x;
-    while(scanf("%d",&x)!=EOF)
-    {
+    while(scanf("%d",&x)!=EOF)    {
         if(x>31) printf("Value of more than 31\n");
         else
         {
