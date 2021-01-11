@@ -6,8 +6,7 @@
 int main(void)   
 {   
     int inp,i;   
-    while(scanf("%d",&inp)!=EOF)   
-    { 
+    while(scanf("%d",&inp)!=EOF){ 
         float sum=0,temp,sq,eq;
         if(inp<=15)
         {
