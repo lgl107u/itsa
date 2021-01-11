@@ -5,8 +5,7 @@ int main()
 {  
     float x;  
     int test;  
-    while(scanf("%f",&x)!=EOF)  
-    {  
+    while(scanf("%f",&x)!=EOF){  
         float z = x*1.6;  
         test = z*100;  
         if(test%10 >=5)  
